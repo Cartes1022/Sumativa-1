@@ -1,0 +1,29 @@
+body {
+    background-image: url('../img/fondo3.jpg'); /* Agrega la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Hace que la imagen cubra todo el elemento */
+    background-position: center; /* Centra la imagen en el elemento */
+    min-height: 100vh;
+}
+
+.flex-fill {
+    flex: 1;
+  }
+.bg-dark {
+    background-color: #06141b !important;
+}
+
+.text-primary {
+    color: #CCD0CF !important;
+}
+.nombre-juego {
+    color: #06141B;
+}
+
+.btn-outline-primary {
+    color: #253745 !important;
+    border-color: #06141B;
+}
+.footer {
+   margin-bottom: -25px
+}

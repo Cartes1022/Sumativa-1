@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="Assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <title>Mega Games</title>
+    </head>
+    <body >
+<!-- Barra de navegación -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+        <a class="navbar-brand" href="#">Mega Games</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Juegos Destacados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Juegos Nuevos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Juegos Antiguos</a>
+                </li>
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="input-group">
+                            <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder="Buscar juegos" aria-label="Buscar">
+                            <div class="input-group-append">
+                                <button class="btn my-2 my-sm-0 bg-transparent" type="submit"><i class="fas fa-search text-white"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <!-- Carrusel -->
+<div class="container w-25 mt-5 " >
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Assets/img/games.jpg" class="d-block w-100 img-fluid h-100" alt="Juego 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/img/games2.jpg" class="d-block w-100 img-fluid h-100" alt="Juego 2">
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/img/games10.jpeg" class="d-block w-100 img-fluid h-100" alt="Juego 3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+</div>
+
+        <!-- Sección de videojuegos -->
+        <div class="container mt-5">
+            <h2 class="text-center text-primary mb-4">Algunos de Nuestros Videojuegos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="Assets/img/games4.jpeg" class="card-img-top" alt="Juego 1">
+                        <div class="card-body">
+                            <h5 class="card-title nombre-juego">World of Warcraft:</h5>
+                            <p class="card-text">World of Warcraft es un MMORPG desarrollado por Blizzard Entertainment. Los jugadores exploran el mundo de fantasía de Azeroth, completan misiones, enfrentan desafíos y participan en batallas en solitario o en grupo. El juego ofrece una rica narrativa y expansiones regulares que amplían su universo.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <p>Stock: <small class="text-muted">9 unids.</small></p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="Assets/img/games11.jpeg" class="card-img-top" alt="Juego 1">
+                        <div class="card-body">
+                            <h5 class="card-title nombre-juego">Final Fantasy X:</h5>
+                            <p class="card-text">Final Fantasy X es un juego de rol por turnos desarrollado por Square Enix. Sigue la historia de Tidus y Yuna en el mundo de Spira mientras intentan derrotar a Sin. Destaca por su narrativa y combate estratégico.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <p>Stock: <small class="text-muted">9 unids.</small></p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="Assets/img/games6.jpeg" class="card-img-top" alt="Juego 1">
+                        <div class="card-body">
+                            <h5 class="card-title nombre-juego">Blue Protocol:</h5>
+                            <p class="card-text">Blue Protocol es un MMORPG de acción desarrollado por Bandai Namco. Ofrece gráficos de anime y una narrativa envolvente mientras los jugadores exploran un mundo de fantasía. Combina combates fluidos con elementos de personalización.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <p>Stock: <small class="text-muted">9 unids.</small></p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repetiste el código anterior para cada videojuego -->
+            </div>
+        </div>
+        <div class="container mt-5">
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="Assets/img/games7.jpeg" class="card-img-top" alt="Juego 1">
+                        <div class="card-body">
+                            <h5 class="card-title nombre-juego">Wolfenstein:</h5>
+                            <p class="card-text">Wolfenstein es una serie de juegos de disparos en primera persona, conocida por su narrativa alternativa de la Segunda Guerra Mundial. Los jugadores asumen el papel de B.J. Blazkowicz, luchando contra los nazis en misiones llenas de acción.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <p>Stock: <small class="text-muted">9 unids.</small></p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="Assets/img/games12.jpeg" class="card-img-top" alt="Juego 1">
+                        <div class="card-body">
+                            <h5 class="card-title nombre-juego">Starfield:</h5>
+                            <p class="card-text">Starfield es un RPG de ciencia ficción desarrollado por Bethesda Game Studios. Los jugadores exploran un vasto universo, visitando planetas y completando misiones. Ofrece una narrativa profunda y un sistema de construcción y personalización de naves.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <p>Stock: <small class="text-muted">9 unids.</small></p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="Assets/img/games9.jpeg" class="card-img-top" alt="Juego 1">
+                        <div class="card-body">
+                            <h5 class="card-title nombre-juego">Super Mario Bros:</h5>
+                            <p class="card-text">Super Mario Bros es un juego de plataformas icónico desarrollado por Nintendo. Los jugadores controlan a Mario mientras viaja a través de niveles llenos de obstáculos para rescatar a la princesa Peach de Bowser. Es conocido por su jugabilidad clásica y divertida.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <p>Stock: <small class="text-muted">9 unids.</small></p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repetiste el código anterior para cada videojuego -->
+            </div>
+        </div>
+</main>
+
+        <!-- Pie de página -->
+<footer class="footer  py-3 bg-dark text-white ">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-4">
+                <p>© 2022 Mega Games. Todos los derechos reservados.</p>
+                <p>Mega Games es una plataforma líder en juegos en línea, ofreciendo una amplia variedad de géneros, desde juegos de acción hasta juegos de estrategia, juegos de rol y más. Nos esforzamos por brindar la mejor experiencia de juego para todos nuestros usuarios.</p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    <a href="#" class="text-white">Política de privacidad</a> | 
+                    <a href="#" class="text-white">Términos y condiciones</a>
+                </p>
+                <p>Síguenos en nuestras redes sociales:</p>
+                <p>
+                    <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                </p>
+                <p>Navegación:</p>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Inicio</a></li>
+                    <li><a href="#" class="text-white">Juegos Destacados</a></li>
+                    <li><a href="#" class="text-white">Juegos Nuevos</a></li>
+                    <li><a href="#" class="text-white">Juegos Antiguos</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <p>Información de la tienda:</p>
+                <p>Mega Games Store</p>
+                <p>123 Calle Falsa, Ciudad, País</p>
+                <p>Teléfono: (123) 456-7890</p>
+                <p>Email: info@megagames.com</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
